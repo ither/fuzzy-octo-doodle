@@ -1,5 +1,5 @@
 heroku addons:create rediscloud:30
-heroku config:add HUBOT_SLACK_TOKEN=xoxb-69250070275-5Nt4FaLVW5ovqcAFbebAbZ2A
+heroku config:add HUBOT_SLACK_TOKEN=blabla
 heroku config:add HEROKU_URL=https://sheltered-sea-62056.herokuapp.com
 heroku config:add TZ="America/Argentina/Buenos_Aires"
 heroku config:add HUBOT_HEROKU_WAKEUP_TIME="7:00"
