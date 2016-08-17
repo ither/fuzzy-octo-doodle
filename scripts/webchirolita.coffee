@@ -1,6 +1,6 @@
 
 module.exports = (robot) ->
-    robot.router.post '/chirolita/:room', (req, res) ->
+    robot.router.post '/hubot/chirolita/:room', (req, res) ->
         room   = req.params.room
         data   = if req.body.payload? then JSON.parse req.body.payload else req.body
   
